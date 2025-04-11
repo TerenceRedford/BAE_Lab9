@@ -1,7 +1,7 @@
 # Take Control: The PID Feedback Controller
 Group members: Heath Shewmaker and Terence Redford
 
-Date of submission: 04/09
+Date of submission: 04/10
 # Introduction 
 In this lab we focused on implementing Proportional Integral Derivative (PID) control using the assembled robot from the previous Lab assignment. This was accomplished by using the inputs from the ultrasonic distance sensor to monitor the distance of the robot from a wall and then passing that information to PID control functions in Arduino IDE. Because the robot was already assembled, the emphasis in this lab was on using the PID library in the Arduino IDE to interpret the incoming data from the distance sensor, and correct for it appropriately, which also involved tuning the PID constants. We were able to successfully implement PID control, however there were some eccentricities in the code that made our control slightly imperfect.
 # Methods:
