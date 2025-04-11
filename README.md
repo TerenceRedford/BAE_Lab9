@@ -12,7 +12,9 @@ Image 1: Importing of libraries
 
 These two lines are to import the correct libraries for using the PID and communicating with the robot. they will be present across each of the steps in this lab.
 ![Screenshot 2025-04-10 222548](https://github.com/user-attachments/assets/ca4ba02e-6844-4e0c-b74d-18a9f8d2effb)
+
 Image 2: Initialization code
+
 These two lines are the initialization of our PID object in the code, and the initialization of the necesarry arguments to run the PID control. Note that setpoint is set to 20 and Kp, Ki and Kd are all 1 since we have not tuned them yet.
 ![Screenshot 2025-04-10 223151](https://github.com/user-attachments/assets/86e32ecd-37fc-477a-9d1e-3e2b76409575)
 
